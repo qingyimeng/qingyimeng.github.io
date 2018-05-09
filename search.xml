@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[关于数据库连接字符串引用]]></title>
     <url>%2F2018%2F05%2F09%2F%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%2F</url>
-    <content type="text"><![CDATA[一个关于程序链接数据的字符串说明的网站该网站会向你提供一些程序链接不同数据库的ConnectionStrings的格式和所需要的类库及其[OLE DB providers]和[ODBC drivers]对应说明。]]></content>
+    <content type="text"><![CDATA[该网站会向你提供程序连接不同数据库的ConnectionStrings的格式和所需要的类库及其[OLE DB providers]和[ODBC drivers]对应说明。关于程序连接不同数据库的ConnectionStrings配置问题网站，点击我进行查看！]]></content>
       <tags>
         <tag>数据库</tag>
         <tag>ConnectionStrings</tag>
