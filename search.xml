@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[dotnet命令]]></title>
+    <url>%2F2018%2F06%2F13%2Fdotnet%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[注意：前提是先安装.Net SDK 环境.Net SDK下载地址，点击我进行查看！可以通过cmd 执行.Net命令，进行创建项目和运行，编译项目。]]></content>
+      <tags>
+        <tag>.Net</tag>
+        <tag>cmd</tag>
+        <tag>命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于数据库连接字符串引用]]></title>
     <url>%2F2018%2F05%2F09%2F%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%2F</url>
     <content type="text"><![CDATA[该网站会向你提供程序连接不同数据库的ConnectionStrings的格式和所需要的类库及其[OLE DB providers]和[ODBC drivers]对应说明。关于程序连接不同数据库的ConnectionStrings配置问题网站，点击我进行查看！]]></content>
