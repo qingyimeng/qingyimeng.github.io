@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[网站图标的设置]]></title>
     <url>%2F2018%2F07%2F04%2F%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87%E7%9A%84%E8%AE%BE%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[现在大多数网站的tab网页标题之前都会显示网站的个性图标，即使浏览器有很多tab，也能够一目了然的知道网页大概的内容（如下图）。非常方便美观。 下面就说说怎么添加这个个性ico图标： 1、直接放个ico图标到你网站的根目录，并命名为favicon.ico就可以了,浏览器在访问这个站点的时候，就会去搜索这个图标。例如： 站点地址为 http://www.qingyimeng.com ，那么图标路径就是 http://www.qingyimeng.com/favorite.ico 。 2、如需在低于IE5以下版本的浏览器中显示，应在HTML源文件“”间添加如下代码： IE地址栏前换成自己的图标 可以在收藏夹中显示出你的图标 IE6默认不显示图标,只有在添加收藏才显示图标。 注意：如果不会把图片转换成ico图标的话，可以去这个网站http://www.faviconico.org/，进行图标转换。]]></content>
+    <content type="text"><![CDATA[现在大多数网站的tab网页标题之前都会显示网站的个性图标，即使浏览器有很多tab，也能够一目了然的知道网页大概的内容（如下图）。非常方便美观。 下面就说说怎么添加这个个性ico图标： 1、直接放个ico图标到你网站的根目录，并命名为favicon.ico就可以了,浏览器在访问这个站点的时候，就会去搜索这个图标。例如： 站点地址为 http://www.qingyimeng.com ，那么图标路径就是 http://www.qingyimeng.com/favorite.ico 。 2、如需在低于IE5以下版本的浏览器中显示，应在HTML源文件head标签内部间添加如下代码： 123&lt;link rel="icon" href="图片的地址" type="image/x-icon" &gt;&lt;link rel="shortcut icon" href="图片的地址" type="image/x-icon" &gt; IE地址栏前换成自己的图标 &lt;link rel="Bookmark" href="favicon.ico"&gt; 可以在收藏夹中显示出你的图标 IE6默认不显示图标,只有在添加收藏才显示图标。 注意：如果不会把图片转换成ico图标的话，可以去这个网站http://www.faviconico.org/，进行图标转换。]]></content>
       <tags>
         <tag>web</tag>
         <tag>图标</tag>
