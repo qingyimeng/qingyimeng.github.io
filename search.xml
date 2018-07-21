@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于asp.net mvc 中生成Htmlhelper的自定义属性]]></title>
+    <url>%2F2018%2F07%2F21%2F%E5%85%B3%E4%BA%8Easp-net-mvc-%E4%B8%AD%E7%94%9F%E6%88%90Htmlhelper%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B1%9E%E6%80%A7%2F</url>
+    <content type="text"><![CDATA[在自定义属性名中，很多Jquery插件都会用符号“-”，然而，在mvc试图生成html属性的时候却是编译不通过的。 这时候我们就应该适应符号“_”来代替符号“-”，例如: 123456789 @using (Html.BeginForm(&quot;Register&quot;, &quot;Account&quot;, FormMethod.Post, new &#123;id= &quot;RegisterForm&quot;,name= &quot;RegisterForm&quot;, @class = &quot;form-horizontal&quot;, role = &quot;form&quot;, data_parsley_validate = &quot;true&quot; &#125;)) &#123; @Html.AntiForgeryToken() @Html.ValidationSummary(true) &lt;div class=&quot;form-group&quot;&gt; @Html.TextBoxFor(m =&gt; m.Email, new &#123; @class = &quot;form-control rounded input-lg text-center no-border&quot;, placeholder = &quot;邮箱&quot;, data_parsley_required = &quot;true&quot; &#125;) @Html.ValidationMessageFor(m =&gt; m.Email, &quot;&quot;, new &#123; @class = &quot;text-danger m-l m-t-sm&quot; &#125;, &quot;div&quot;) &lt;/div&gt;&#125; 123456&lt;form action="/Account/Register" class="form-horizontal" data-parsley-validate="true" id="RegisterForm" method="post" name="RegisterForm" role="form"&gt; &lt;div class="form-group"&gt; &lt;input class="input-validation-error form-control rounded input-lg text-center no-border" data-required="true" data-val="true" data-val-length=" 密码至少为6个字符长度。" data-val-length-max="100" data-val-length-min="6" data-val-required="密码 字段是必需的。" id="Password" name="Password" placeholder="密码" type="password" /&gt; &lt;div class="field-validation-error text-danger m-l m-t-sm" data-valmsg-for="Password" data-valmsg-replace="true"&gt;密码 字段是必需的。&lt;/div&gt; &lt;/div&gt;&lt;/form&gt; 上例中就是使用“data_parsley_validate”来代替“data-parsley-validate”。]]></content>
+      <tags>
+        <tag>asp.net</tag>
+        <tag>mvc</tag>
+        <tag>html</tag>
+        <tag>自定义属性</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo 新建文章]]></title>
     <url>%2F2018%2F07%2F21%2FHexo-%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0%2F</url>
     <content type="text"><![CDATA[hexo n “文章名称” #完整命令为hexo new,用于新建一篇名为“文章名称”的文章 hexo g #完整命令为hexo generate,用于生成静态文件 hexo d #完整命令为hexo deploy,用于将本地文件发布到github等git仓库上 hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览]]></content>
