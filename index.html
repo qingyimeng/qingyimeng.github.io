@@ -304,28 +304,8 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>Using对象必须实现IDisposable接口或则其基类实现了IDisposable接口，此接口主要用途是释放非托管资源。<br>同时也可以使用多个Using关键字。</p>
-<pre><code class="c#">/// &lt;summary&gt;
-/// Program类
-/// &lt;/summary&gt;
-class Program
-{
-    /// &lt;summary&gt;
-    /// 程序入口
-    /// &lt;/summary&gt;
-    /// &lt;param name=&quot;args&quot;&gt;参数数组&lt;/param&gt;
-    static void Main(string[] args)
-    {
-        using (A a = new A())
-        using (B b = new B())
-        {
-            //对象a和对象b操作
-        }
-        Console.ReadKey();
-    }
-}
-</code></pre>
-
+              <p>Using对象必须实现IDisposable接口或则其基类实现了IDisposable接口，此接口主要用途是释放非托管资源。<br>
+          
       
     </div>
     
@@ -342,6 +322,10 @@ class Program
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C#</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Using/">Using</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/资源回收/">资源回收</a></li></ul>
     </div>
 
+      
+        <p class="article-more-link">
+          <a href="/2018/09/15/使用Using关键字有效回收资源/#more">阅读全文 >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>

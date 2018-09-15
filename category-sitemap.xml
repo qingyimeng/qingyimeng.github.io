@@ -7,15 +7,22 @@
     </url>
 
     <url>
-        <loc>http://qingyimeng.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-        <lastmod>2018-05-07T03:44:34.604Z</lastmod>
+        <loc>http://qingyimeng.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+        <lastmod>2018-05-09T03:24:50.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://qingyimeng.com/categories/%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2018-05-09T03:24:50.912Z</lastmod>
+        <loc>http://qingyimeng.com/categories/%E9%9A%8F%E7%AC%94/</loc>
+        <lastmod>2018-09-15T02:44:08.424Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://qingyimeng.com/categories/Net/</loc>
+        <lastmod>2018-09-15T03:34:27.861Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
