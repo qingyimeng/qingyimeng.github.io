@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="青忆檬">
 <meta property="og:description" content="Using对象必须实现IDisposable接口或则其基类实现了IDisposable接口，此接口主要用途是释放非托管资源。同时也可以使用多个Using关键字。 /// &amp;lt;summary&amp;gt; /// Program类 /// &amp;lt;/summary&amp;gt; class Program {     /// &amp;lt;summary&amp;gt;     /// 程序入口     /// &amp;lt;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-15T03:31:34.536Z">
+<meta property="og:updated_time" content="2018-09-15T03:33:05.909Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Using关键字有效回收资源">
 <meta name="twitter:description" content="Using对象必须实现IDisposable接口或则其基类实现了IDisposable接口，此接口主要用途是释放非托管资源。同时也可以使用多个Using关键字。 /// &amp;lt;summary&amp;gt; /// Program类 /// &amp;lt;/summary&amp;gt; class Program {     /// &amp;lt;summary&amp;gt;     /// 程序入口     /// &amp;lt;">
@@ -328,7 +328,7 @@ class Program
         using (A a = new A())
         using (B b = new B())
         {
-            a.a = b.b;
+            //对象a和对象b操作
         }
         Console.ReadKey();
     }
@@ -345,7 +345,7 @@ class Program
         <p><span>本文标题:</span><a href="/2018/09/15/使用Using关键字有效回收资源/">使用Using关键字有效回收资源</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">一寸阳光</a></p>
         <p><span>发布时间:</span>2018-09-15, 11:26:10</p>
-        <p><span>最后更新:</span>2018-09-15, 11:31:34</p>
+        <p><span>最后更新:</span>2018-09-15, 11:33:05</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2018/09/15/使用Using关键字有效回收资源/" title="使用Using关键字有效回收资源">http://qingyimeng.com/2018/09/15/使用Using关键字有效回收资源/</a>
             <span class="copy-path" data-clipboard-text="原文: http://qingyimeng.com/2018/09/15/使用Using关键字有效回收资源/　　作者: 一寸阳光" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
