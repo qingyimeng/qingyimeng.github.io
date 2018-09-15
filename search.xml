@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[判断年份是否是闰年]]></title>
+    <url>%2F2018%2F09%2F15%2F%E5%88%A4%E6%96%AD%E5%B9%B4%E4%BB%BD%E6%98%AF%E5%90%A6%E6%98%AF%E9%97%B0%E5%B9%B4%2F</url>
+    <content type="text"><![CDATA[普通闰年:能被4整除但不能被100整除的年份为普通闰年。（如2004年就是闰年，1999年不是闰年）；世纪闰年:能被400整除的为世纪闰年。（如2000年是闰年，1900年不是闰年）。验证年份是否为闰年的类。1234567891011121314/// &lt;summary&gt;/// 日期帮助类/// &lt;/summary&gt;public class DateHelper&#123; /// &lt;summary&gt; /// 是否为闰年 /// &lt;/summary&gt; /// &lt;param name=&quot;targetYear&quot;&gt;目标年份&lt;/param&gt; /// &lt;returns&gt;返回true、闰年 false、非闰年 &lt;/returns&gt; public static bool IsLeapYear(int targetYear) &#123; return ((targetYear % 4 == 0 &amp;&amp; targetYear % 100 != 0) || targetYear % 400 == 0); &#125;&#125; 调用辅助类的方法验证今年是否为闰年。12345678910111213141516171819202122/// &lt;summary&gt; /// Program类 /// &lt;/summary&gt; class Program &#123; /// &lt;summary&gt; /// 程序入口 /// &lt;/summary&gt; /// &lt;param name=&quot;args&quot;&gt;参数数组&lt;/param&gt; static void Main(string[] args) &#123; bool ly = DateHelper.IsLeapYear(DateTime.Now.Year); if (ly) &#123; Console.WriteLine(&quot;今年是闰年。&quot;); &#125; else &#123; Console.WriteLine(&quot;今年不是闰年。&quot;); &#125; Console.ReadKey(); &#125; &#125; 运行结果如下：]]></content>
+      <categories>
+        <category>.Net</category>
+      </categories>
+      <tags>
+        <tag>C#</tag>
+        <tag>闰年</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[VS实用的快捷键]]></title>
     <url>%2F2018%2F09%2F15%2FVS%E5%AE%9E%E7%94%A8%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
     <content type="text"><![CDATA[编程语言格式化：全部对齐 Ctrl+K+D部分对齐 Ctrl+K+F代码注释：单行代码注释：Ctrl+K+C取消代码注释：Ctrl+K+U编辑器全屏显示：全屏幕：Shift+Alt+Enter取消全屏：同上全屏幕显示也可以通过以下步骤设置：1、点击菜单“视图”，然后选择“全屏幕”2、取消点击“全屏幕”]]></content>
