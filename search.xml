@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[C#显示24小时制时间]]></title>
+    <url>%2F2018%2F09%2F18%2FC-%E6%98%BE%E7%A4%BA24%E5%B0%8F%E6%97%B6%E5%88%B6%E6%97%B6%E9%97%B4%2F</url>
+    <content type="text"><![CDATA[C#编程语言的24小时制的区分是“HH”和“hh”,“HH”是24小时制， “hh”则是12小时制。例子如下：1234567891011121314151617181920/// &lt;summary&gt;/// Program类/// &lt;/summary&gt;class Program&#123; /// &lt;summary&gt; /// 程序入口 /// &lt;/summary&gt; /// &lt;param name=&quot;args&quot;&gt;参数数组&lt;/param&gt; static void Main(string[] args) &#123; DateTime dt = DateTime.ParseExact(&quot;2018/09/17 13:22:11&quot;, &quot;yyyy/MM/dd HH:mm:ss&quot;, null); Console.WriteLine(Environment.NewLine); Console.WriteLine(dt.ToString(&quot;yyyy-MM-dd HH:mm:ss&quot;)); //24小时制 Console.WriteLine(Environment.NewLine); Console.WriteLine(dt.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;)); //12小时制 Console.ReadKey(); &#125;&#125; 运行结果如下：]]></content>
+      <categories>
+        <category>.Net</category>
+      </categories>
+      <tags>
+        <tag>.Net</tag>
+        <tag>C#</tag>
+        <tag>24小时制</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[使用Using关键字有效回收资源]]></title>
     <url>%2F2018%2F09%2F15%2F%E4%BD%BF%E7%94%A8Using%E5%85%B3%E9%94%AE%E5%AD%97%E6%9C%89%E6%95%88%E5%9B%9E%E6%94%B6%E8%B5%84%E6%BA%90%2F</url>
     <content type="text"><![CDATA[Using对象必须实现IDisposable接口或则其基类实现了IDisposable接口，此接口主要用途是释放非托管资源。同时也可以使用多个Using关键字。 /// &lt;summary&gt; /// Program类 /// &lt;/summary&gt; class Program { /// &lt;summary&gt; /// 程序入口 /// &lt;/summary&gt; /// &lt;param name=&quot;args&quot;&gt;参数数组&lt;/param&gt; static void Main(string[] args) { using (A a = new A()) using (B b = new B()) { //对象a和对象b操作 } Console.ReadKey(); } }]]></content>
