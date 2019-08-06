@@ -109,8 +109,8 @@
     <url>%2F2018%2F06%2F13%2Fdotnet%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[注意：前提是先安装.Net SDK 环境.Net SDK下载地址，点击我进行查看！可以通过cmd 执行.Net命令，进行创建项目和运行，发布项目等。详细请查看以下命令：]]></content>
       <tags>
-        <tag>.Net</tag>
         <tag>命令</tag>
+        <tag>.Net</tag>
         <tag>cmd</tag>
       </tags>
   </entry>
